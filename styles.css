@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
-
-
 body {
     color: #0f141e;
     background: #f1f1f1;
@@ -10,31 +6,24 @@ body {
     font-size: 16px;
     font-weight: normal;
 }
-
 a {
     color: #000;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
 a:active {
     color: blue;
 }
-
 a:visited {
     color: grey;
 }
-
-
 .container {
     max-width: 750px;
     margin: auto;
     padding-top: 30px;  
 }
-
 .avatar {
     width: 200px;
     border-radius: 28px;
@@ -44,11 +33,9 @@ a:visited {
     margin-bottom: 20px;
     display: flex;
 }
-
 .info-text {
     margin-left: 40px;
 }
-
 .info-text p {
     font-style: italic;
     font-weight: bold;
@@ -58,18 +45,15 @@ a:visited {
 .info-text h4 {
     margin-bottom: 10px;
 }
-
 @media (max-width: 600px) {
     .info {
         display: block;
         text-align: center;
     }
 }
-
 h1 {
     color: yellowgreen;
 }
-
 .card {
     border-radius: 20px;
     padding: 15px 20px;
@@ -87,7 +71,6 @@ h1 {
 .bg-green {
     background: #e5ffe7;
 }
-
 .btn {
     background: #111;
     padding: 15px 20px;
@@ -96,63 +79,50 @@ h1 {
     font-family: inherit;
     cursor: pointer;
 }
-
 .btn:hover {
         opacity: .8;
 }
-
 .list {
     padding: 0 20px;
 }
-
 .list li {
     color: #86898f;
     margin-bottom: 10px;
 }
-
 .link-list {
     list-style: none;
     padding: 0;
 }
-
 .link-list li {
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
-
 .table {
     width: 100%;
 }
-
 .table td {
     padding-bottom: 10px;
 }
-
 .table td:nth-child(2), .table td:nth-child(3) {
     color: #86898f;
 }
-
 .form h2 {
     text-align: center;
 }
-
 .form-row {
     margin-bottom: 10px;
     display: flex;
 }
-
 .form-row .form-group {
     /* display: inline-block; */
     margin-right: 20px;
     width: 50%;
     /* width: calc(50% - 20px); */
 }
-
 .form-row .form-group:last-child {
     margin-right: 0;
 }
-
 @media (max-width: 600px) {
     .form-row {
         display: block;
@@ -163,13 +133,11 @@ h1 {
         margin-bottom: 10px;
     }
 }
-
 .form-group label {
     display: block; 
     font-size: 14px;
     color: #86898f;
 }
-
 .form-group input, .form-group textarea {
     width: 100%;
     box-sizing: border-box;
